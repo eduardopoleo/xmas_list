@@ -130,6 +130,36 @@ header {
     color: var(--light-green);
 }
 
+/* Callout */
+.callout {
+    background: linear-gradient(135deg, #fff9e6 0%, #e6f7ff 100%);
+    border-left: 4px solid var(--dark-green);
+    padding: 25px 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.callout p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+.callout a {
+    color: var(--dark-green);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid var(--dark-green);
+    transition: all 0.3s ease;
+}
+
+.callout a:hover {
+    color: var(--light-green);
+    border-bottom-color: var(--light-green);
+}
+
 /* Footer */
 footer {
     text-align: center;
